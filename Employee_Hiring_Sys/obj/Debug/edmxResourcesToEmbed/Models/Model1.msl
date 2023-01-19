@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_EmployeeHiringModelStoreContainer" CdmEntityContainer="db_EmployeeHiringEntities1">
+    <EntitySetMapping Name="tbl_category">
+      <EntityTypeMapping TypeName="db_EmployeeHiringModel.tbl_category">
+        <MappingFragment StoreEntitySet="tbl_category">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="member_id" ColumnName="member_id" />
+          <ScalarProperty Name="cat_name" ColumnName="cat_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_education">
+      <EntityTypeMapping TypeName="db_EmployeeHiringModel.tbl_education">
+        <MappingFragment StoreEntitySet="tbl_education">
+          <ScalarProperty Name="edu_id" ColumnName="edu_id" />
+          <ScalarProperty Name="member_id" ColumnName="member_id" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+          <ScalarProperty Name="college" ColumnName="college" />
+          <ScalarProperty Name="start_year" ColumnName="start_year" />
+          <ScalarProperty Name="end_year" ColumnName="end_year" />
+          <ScalarProperty Name="mark_cgpa" ColumnName="mark_cgpa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_experience">
+      <EntityTypeMapping TypeName="db_EmployeeHiringModel.tbl_experience">
+        <MappingFragment StoreEntitySet="tbl_experience">
+          <ScalarProperty Name="exper_id" ColumnName="exper_id" />
+          <ScalarProperty Name="member_id" ColumnName="member_id" />
+          <ScalarProperty Name="company" ColumnName="company" />
+          <ScalarProperty Name="Starts_date" ColumnName="Starts_date" />
+          <ScalarProperty Name="end_date" ColumnName="end_date" />
+          <ScalarProperty Name="experience_time" ColumnName="experience_time" />
+          <ScalarProperty Name="position" ColumnName="position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_personal_info">
+      <EntityTypeMapping TypeName="db_EmployeeHiringModel.tbl_personal_info">
+        <MappingFragment StoreEntitySet="tbl_personal_info">
+          <ScalarProperty Name="member_id" ColumnName="member_id" />
+          <ScalarProperty Name="firsst_name" ColumnName="firsst_name" />
+          <ScalarProperty Name="last_name" ColumnName="last_name" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="cnt_no" ColumnName="cnt_no" />
+          <ScalarProperty Name="h_add" ColumnName="h_add" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="cnfpass" ColumnName="cnfpass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_projects">
+      <EntityTypeMapping TypeName="db_EmployeeHiringModel.tbl_projects">
+        <MappingFragment StoreEntitySet="tbl_projects">
+          <ScalarProperty Name="proj_id" ColumnName="proj_id" />
+          <ScalarProperty Name="member_id" ColumnName="member_id" />
+          <ScalarProperty Name="proj_name" ColumnName="proj_name" />
+          <ScalarProperty Name="languages" ColumnName="languages" />
+          <ScalarProperty Name="image_path" ColumnName="image_path" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
